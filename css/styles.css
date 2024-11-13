@@ -102,6 +102,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overflow-x: hidden;
 }
 
 hr {
@@ -11242,7 +11243,7 @@ p {
   right: 0; /* Adjust this distance from the right */
 }
 .card-custom {
-  background-color: #a2e3e9;
+  background-color: #d0ccd0;
   padding: 20px; /* Or adjust padding as needed */
   border-radius: 10px; /* For rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */

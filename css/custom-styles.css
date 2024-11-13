@@ -1,0 +1,114 @@
+/* custom-styles.css */
+
+/* Colores personalizados para botones */
+.btn-primary {
+    background-color: #4a90e2; /* Color del botón */
+    border-color: #357ab7; /* Color del borde del botón */
+}
+.btn-primary:hover {
+    background-color: #357ab7; /* Color del botón al pasar el ratón */
+    border-color: #2d6ca2; /* Color del borde al pasar el ratón */
+}
+
+/* Personaliza el color de enlaces, texto, etc. */
+a {
+    color: #4a90e2;
+}
+a:hover {
+    color: #357ab7;
+}
+
+/* Fondo del navbar */
+.navbar-dark {
+    border-top: 2px solid #000000; /* Borde opcional en la parte inferior del navbar */
+    background-color: #1c0f13; /* Cambia este color por el fondo deseado */
+    border-bottom: 2px solid #000000; /* Borde opcional en la parte inferior del navbar */
+}
+
+/* Color de los enlaces del navbar */
+.navbar-dark .navbar-nav .nav-link {
+    color: #c5c5c5; /* Color de los enlaces */
+    font-weight: bold; /* Hacer los enlaces más gruesos */
+    padding: 10px 15px; /* Ajustar el espacio interno de los enlaces */
+    transition: color 0.3s ease; /* Efecto suave al cambiar el color */
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff; /* Color de los enlaces al pasar el ratón */
+}
+
+/* Enlace activo */
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #4a90e2; /* Color del enlace activo */
+    border-bottom: 2px solid #4a90e2; /* Línea en el enlace activo para destacarlo */
+}
+
+/* Texto del título en el navbar */
+.navbar-brand {
+    color: #4a90e2; /* Color del título del sitio en el navbar */
+    font-size: 1.5rem; /* Tamaño del texto */
+    font-weight: bold; /* Engrosar el texto */
+    transition: color 0.3s ease;
+}
+.navbar-brand:hover {
+    color: #357ab7;
+}
+
+.programming-portfolio-section {
+    padding: 2rem 0;
+    background-color: #444;
+    color: #fff;
+}
+.section-title {
+    font-size: 2.5rem;
+    margin: 0;
+}
+.projects-container {
+    padding: 2rem;
+}
+.project-cell {
+    background-color: #d0ccd0;
+    padding: 1rem;
+    margin: 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+}
+.project-title {
+    font-size: 1.8rem;
+    color: #222;
+    margin-bottom: 1rem;
+}
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.project-date {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+.small-title {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.smaller-title {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.development-details, .system-details, .learning-details {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+

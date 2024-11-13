@@ -3,25 +3,26 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="Art Portfolio" content="My projects info" />
-        <meta name="Anastasia" content="" />
-        <title>TasiaTasArt Portfolio</title>
+        <meta name="Game Development Portfolio" content="My projects info" />
+        <meta name="Jorge Juan" content="" />
+        <title>LordOrco's Portfolio</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap), with cache-busting-->
+        <link href="css/styles.css?v=1.0" rel="stylesheet" />
+        <link href="css/custom-styles.css?v=1.0" rel="stylesheet" />
     </head>
 
 
     <body>
         <!-- Title -->
         <header class="header-banner">
-            <div class="header-banner-bg"></div> <!-- Fixed background div -->
+            <div class="header-banner-bg"></div>
             <h1 class="site-heading text-center text-faded">
-                <span class="site-heading-upper text-primary mb-4">Art portfolio</span>
-                <span class="site-heading-lower">Anastasia Ihnatsenka Shakhova</span>
+                <span class="site-heading-upper">Game Development Portfolio </span>
+                <span class="site-heading-lower">Jorge Juan Xuclá Esparza</span>
             </h1>
         </header>
 
@@ -32,10 +33,12 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="2DProj.html">2D Projects</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="3DProj.html">3D Projects</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="ProgProj.html">Programming Portfolio</a></li>
+                        <!-- <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="ArtProj.html">3D Art & Sound Design</a></li> -->
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="games.html">Games</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="#footer">Contact me</a></li>
 
+                        <!-- Language switcher -->
                         <li class="nav-item px-lg-4">
                             <a class="nav-link text-uppercase" href="games-es.html" style="background-color: white; color: black; padding: 8px 16px; border-radius: 5px;">Spanish</a>
                         </li>
@@ -48,8 +51,26 @@
             <div class="container">
                 <div id="gameCarousel" class="carousel slide">
                     <div class="carousel-inner">
-                        <!-- Game 1 -->
+                        <!-- Game 0 -->
                         <div class="carousel-item active">
+                            <div class="row align-items-center mb-4">
+                                <div class="col-lg-6">
+                                    <video autoplay loop muted class="small-video rounded">
+                                        <source src="assets/myVideos/VideoDSDD.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="card card-custom"> <!-- Apply custom card class here -->
+                                        <h3>Deep Sea Dragon Dash</h3>
+                                        <p class="mb-4">A 2D dash mobile game in which you have to get as far as you can. You will play as a dragon that can use different skins and you will have to use your skill and fireballs to go through the different environments</p>
+                                        <p class="mb-0">Play the game here: <a href="https://play.google.com/store/apps/details?id=com.dsdd.myapp&hl=es_419">Deep Sea Dragon Dash</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Game 1 -->
+                        <div class="carousel-item">
                             <div class="row align-items-center mb-4">
                                 <div class="col-lg-6">
                                     <video autoplay loop muted class="small-video rounded">
@@ -61,7 +82,6 @@
                                     <div class="card card-custom"> <!-- Apply custom card class here -->
                                         <h3>SPADE</h3>
                                         <p class="mb-4">A 3D platform game following the idea of hard games that punish you for any and every mistake. You have to help Foggy reach the top but, jumping over the platforms will be a challenge because, if you fall, you have to start it all over again.</p>
-                                        <p class="mb-4">This game is still in progress and my job is to create Foggy, an engaging main character. You can see more of his development in the <b>3D projects</b> section.</p>
                                         <p class="mb-0">Try the demo here: <a href="https://wild-claw-studio.itch.io/spade">SPADE</a></p>
                                     </div>
                                 </div>
@@ -80,7 +100,6 @@
                                     <div class="card card-custom"> <!-- Apply custom card class here -->
                                         <h3>Mr Erazer's Revenge</h3>
                                         <p class="mb-4">A 2D platform game created for our first ever Game Jam at Virtual Soul GameGen GameJam 2021 with only 3 days to develop it.</p>
-                                        <p class="mb-4">Here, you have to help Mr Erazer to get to the final boss to have his revenge against Monsieur Lapiz and his wife. And my job was to create all the environment assets and the backgrounds.</p>
                                         <p class="mb-0">Try the game here: <a href="https://wild-claw-studio.itch.io/mr-erazers-revenge">Mr Erazer's Revenge</a></p>
                                     </div>
                                 </div>
@@ -99,7 +118,6 @@
                                     <div class="card card-custom"> <!-- Apply custom card class here -->
                                         <h3>Space Combat Rush</h3>
                                         <p class="mb-4">A 2D arcade game in pixel art to reminiscence the old times. It was created as our first multiplayer game. Here, the objective is to kill your adversary and survive in a space war.</p>
-                                        <p class="mb-4">And, as for my job here, I was in charge of designing the background and all the interfaces (plus some programming).</p>
                                         <p class="mb-0">Try the game here: <a href="https://wild-claw-studio.itch.io/space-combat-rush">SCR</a></p>
                                     </div>
                                 </div>
@@ -118,7 +136,6 @@
                                     <div class="card card-custom"> <!-- Apply custom card class here -->
                                         <h3>The Inner Doors</h3>
                                         <p class="mb-4">A 3D mystery first-person game where you have to discover what is happening and where your decisions matter. You can get 3 different endings.</p>
-                                        <p class="mb-4">In this game, my job was to create all the visual aspects of the game (from the interface, to all the 3D assets).</p>
                                         <p class="mb-0">Try the game here: <a href="https://wild-claw-studio.itch.io/the-inner-doors">The Inner Doors</a></p>
                                     </div>
                                 </div>
@@ -139,14 +156,17 @@
         </section>
 
         <!--webpage footer with social media-->
-        <footer class="footer text-faded text-center py-5">
+        <footer class="footer text-faded text-center py-5" id="footer">
             <div class="container">
                 <div class="social-icons">
-                    <a href="https://www.instagram.com/tasiatasart/" target="_blank">
-                        <img src="assets/icons/instagram.svg" alt="Instagram" class="social-icon" />
+                    <a href="https://www.linkedin.com/in/jorge-juan-xucl%C3%A1-esparza-36b960250/" target="_blank">
+                        <img src="assets/icons/linkedinLogo.svg" alt="linkedin" class="social-icon" />
                     </a>
-                    <a href="https://www.deviantart.com/tasiatasart" target="_blank">
-                        <img src="assets/icons/deviantart-svgrepo-com.svg" alt="DeviantArt" class="social-icon" />
+                    <a href="https://www.instagram.com/jorge_jxe/" target="_blank">
+                        <img src="assets/icons/instagram.svg" alt="instagram" class="social-icon" />
+                    </a>
+                    <a href="https://x.com/LordOrcoXE" target="_blank">
+                        <img src="assets/icons/X_logo_2023_original.svg" alt="twitter" class="social-icon" />
                     </a>
                     <a href="https://wild-claw-studio.itch.io/" target="_blank">
                         <img src="assets/icons/itchio-textless-black.svg" alt="itch.io" class="social-icon" />
@@ -156,9 +176,9 @@
                     </a>
                 </div>
                 <p class="m-0 small">
-                    Contact me: <a href="mailto:tasiatasart@gmail.com">tasiatasart@gmail.com</a>
+                    Contact me: <a href="mailto:jjxe@outlook.es">jjxe@outlook.es</a>
                 </p>
-                <p class="m-0 small">Copyright &copy; Anastasia Ihnatsenka Shakhova 2024. All rights reserved.</p>
+                <p class="m-0 small">Copyright &copy; Jorge Juan Xuclá Esparza 2024. All rights reserved.</p>
             </div>
         </footer>
 
